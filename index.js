@@ -1,5 +1,5 @@
 function distanceFromHqInBlocks(street){
-  if(street < 42){
+   if(street < 42){
     return 42 - street;
   } else {
     return street - 42;
